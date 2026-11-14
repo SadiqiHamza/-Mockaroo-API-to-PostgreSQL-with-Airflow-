@@ -18,7 +18,6 @@ This project retrieves sample customer data from the Mockaroo API and loads it i
 
 ## Project Structure
 
-```text
 .
 ├── dags/
 │   └── API_to_postgres_pipeline.py
@@ -41,13 +40,13 @@ Create a .env file in the same directory as docker-compose.yaml and add the requ
 
 ## Run the Project
 From the project directory, start the services with Docker Compose:
-docker compose up -d
+ - docker compose up -d
 
 Open the Airflow web interface at:
 http://localhost:8080
 
 To stop the services:
-docker compose down
+ - docker compose down
 
 ## Notes
 - Docker Compose starts and manages the project services; this project does not use a separate Dockerfile.
